@@ -1,0 +1,1 @@
+export const COMPANY_NAME = "Half Time Delivery";
