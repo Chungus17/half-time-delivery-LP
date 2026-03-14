@@ -13,19 +13,29 @@ import { createWhatsAppLink } from "@/lib/Whatsapp";
 
 const benefits = [
   {
-    icon: Clock3,
-    title: "Quick application",
-    text: "Apply easily through WhatsApp.",
+    icon: Bike,
+    title: "New vehicle provided",
+    text: "Car or bike, 2026 model.",
   },
   {
     icon: WalletCards,
-    title: "Flexible opportunities",
-    text: "Food, bike, car, and delivery roles.",
+    title: "High pay + commission",
+    text: "Earn per order with strong income potential.",
   },
   {
     icon: CircleCheckBig,
-    title: "Simple process",
-    text: "Clear communication and fast response.",
+    title: "Monthly bonuses",
+    text: "Extra rewards based on performance.",
+  },
+  {
+    icon: Clock3,
+    title: "Fuel & maintenance paid",
+    text: "We cover the running costs for you.",
+  },
+  {
+    icon: MessageCircleMore,
+    title: "Free phone & internet",
+    text: "Stay connected without extra expense.",
   },
 ];
 
@@ -98,13 +108,9 @@ export default function DriverRecruitment() {
                 Apply on WhatsApp
                 <ArrowRight className="ml-2 h-4 w-4" />
               </a>
-
-              <div className="inline-flex items-center justify-center rounded-full border border-black/5 bg-white px-5 py-3.5 text-sm font-medium text-[var(--text-1)] shadow-[0_10px_30px_rgba(0,0,0,0.05)]">
-                Quick response
-              </div>
             </div>
 
-            <div className="mt-10 space-y-4">
+            <div className="mt-10 grid gap-4 sm:grid-cols-2">
               {benefits.map((item, index) => {
                 const Icon = item.icon;
 
