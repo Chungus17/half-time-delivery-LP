@@ -68,23 +68,6 @@ export default function Hero() {
               Join as Driver
             </a>
           </div>
-
-          <div className="mt-8 flex flex-wrap gap-3">
-            <div className="inline-flex items-center gap-2 rounded-full border border-black/5 bg-white/90 px-4 py-2 text-sm text-[var(--text-2)] shadow-sm">
-              <Store className="h-4 w-4 text-[var(--orange-1)]" />
-              Business support
-            </div>
-
-            <div className="inline-flex items-center gap-2 rounded-full border border-black/5 bg-white/90 px-4 py-2 text-sm text-[var(--text-2)] shadow-sm">
-              <Bike className="h-4 w-4 text-[var(--orange-1)]" />
-              Driver opportunities
-            </div>
-
-            <div className="inline-flex items-center gap-2 rounded-full border border-black/5 bg-white/90 px-4 py-2 text-sm text-[var(--text-2)] shadow-sm">
-              <Clock3 className="h-4 w-4 text-[var(--orange-1)]" />
-              Quick response
-            </div>
-          </div>
         </motion.div>
 
         {/* Right */}
